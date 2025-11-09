@@ -1,10 +1,10 @@
 body {
-  background-color: #F5F5F0;
+  background-color: #fafaf1;
   margin: 0;
 }
 
 header {
-  background-color: #ecf3eb;
+  background-color: #fafaf1;
   border-bottom: 1px solid #0b3d2e1a;
 	display: flex;
 	align-items: center;
@@ -49,9 +49,9 @@ h1 {
   font-size: 1.125rem;
   letter-spacing: 0.1em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: opacity 0.2s ease;
 }
 
 .nav-link:hover {
   opacity: 75%;
-  font-size: 1.13rem;
 }
