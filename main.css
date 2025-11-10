@@ -1,0 +1,111 @@
+.hero {
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.189), rgba(240, 212, 178, 0.205)),
+  url("img/hero-pilt.png");
+	min-height: 350px;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+	padding: 0px 100px;
+}
+
+.hero-sisu h2{
+	color: #0B3D2E;
+	font-size: 60px;
+  letter-spacing: 0.1em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 750;
+	background-color: #E7F0E29f;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.hero-sisu p {
+	color: #0B3D2E;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 20px;
+	background-color: #E7F0E29f;
+	padding: 7px 12px;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.liigid-tekst {
+	background-color: #fafaf1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.liigid-tekst h2 {
+	color: #0b3d2e;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 40px;
+	margin-bottom: 4px;
+}
+
+.liigid-tekst p {
+	color: #0b3d2e;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding-bottom: 15px;
+}
+
+.kiirvõrdlus {
+	background-color: #fafaf1;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.kiirvõrdlus-aasia h2{
+	color: #0b3d2e;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 25px;
+}
+
+.kiirvõrdlus-aafrika h2{
+	color: #0b3d2e;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 25px;
+}
+
+.kiirvõrdlus-aafrika-pilt {
+	height: 350px;
+	width: auto;
+}
+
+.kiirvõrdlus-aasia-pilt {
+	height: 350px;
+	width: auto;
+}
+
+.kiirvõrdlus-aasia {
+	padding: 30px 30px;
+	background-color: #E7F0E2;
+	margin: 30px;
+	display: flexbox;
+	flex-direction: column;
+	align-items: center;
+	text-align: center	;
+	border-radius: 20px;
+}
+
+.kiirvõrdlus-aafrika {
+	padding: 30px 30px;
+	background-color: #E7F0E2;
+	margin: 30px;
+	display: flexbox;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+}
+
