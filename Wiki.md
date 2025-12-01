@@ -1,4 +1,4 @@
-# wiki  
+# Wiki  
 
 Veebileht tutvustab aasia ning aafrika elevanti ning nende kahe liigi erinevusi.  
 
