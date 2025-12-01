@@ -45,3 +45,13 @@ p {
 	border-radius: 20px;
     max-width: 300px;
 }
+.aasia_kaart {
+	background-color: #E7F0E2;
+	border: 1px solid #000000;
+	border-radius: 20px;
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
