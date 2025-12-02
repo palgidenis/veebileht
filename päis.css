@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #fafaf1;
+  background-color: rgba(250, 250, 241, 1);
   border-bottom: 1px solid #0b3d2e1a;
 	display: flex;
 	align-items: center;
@@ -14,6 +14,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000; 
+  transition: background-color 0.3s ease;
 }
 
 h1 {
@@ -54,4 +55,8 @@ h1 {
 
 .nav-link:hover {
   opacity: 75%;
+}
+
+header.scrolled {
+  background-color: rgba(255, 255, 255, 0.85);
 }
