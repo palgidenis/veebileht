@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aasia elevant</title>
 		<link rel="stylesheet" href="päis.css">
-    <link rel="stylesheet" href="aasia.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
-</head>
+    <link rel="stylesheet" href="aasia.css">
+    <script src="päis.js" defer></script>
+  </head>
 <body>
-  <header>
+  <header id="header">
     <div class="logo-pealkiri">
       <img src="img/elevandi_logo2.png" alt="loading" class="logo">
       <h1>Elevandid</h1>
@@ -22,27 +24,117 @@
     </nav>
   </header>
 
-  <section>
-    <div>
-      <h2>Aasia elevant</h2>
-      <img src="img/aasia elevant3.jpg" alt="loading" class="pilt3">
+
+  <section class="intro">
+    <div class="intro-sisu">
+      <p class="ladina">Elephas maximus</p>
+      <h1>Aasia elevant</h1>
+      <p>Aasia elevandid on veidi väiksemad kui nende Aafrika sugulased, kuid siiski ühed muljetavaldavamad maismaaloomad. Neid leidub Lõuna- ja Kagu-Aasia vihmametsades, rohumaadel ja mägistes piirkondades.</p>
     </div>
-    <section class="info">
-      <div class="suurus">
-        <p>Isasloom ei kaalu kunagi üle 5000 kg. Aasia elevantidel on lont, mis on võimeline tõstma kuni viietonniseid puutüvesid, lont on neil ka toidu ja vee hankimiseks. Võhad on olemas vaid isasloomal.</p>
-      </div>
-      <div class="toitumine">
-        <p>Aasia elevant toitub väga mitmekülgselt, kuid taimselt. Enamjaolt sööb ta rohtu, bambust, kaunvilju, puukoort, palmilehti ja igasuguseid ronitaimi. Hooajati söövad nad ka viigimarju, metsõunu ja mangot.</p>
+    <img src="img/aasiakaart.png" alt="loading">
+  </section>
+
+  <section class="informatsioon">
+    <div class="informatsioon-kaart">
+      <img src="img/aasia elevant3.jpg" alt="loading" class="informatsioon-pilt">
+      <p>
+        Aasia elevant on Aafrika sugulasest väiksem ning tal on väiksemad ning ümaramad kõrvad ja kõrgem, kumer seljajoon. Ta elab Lõuna- ja Kagu-Aasia vihmametsades, rohumaadel ja põllumajandusmaastikel ning on hästi kohastunud liikuma kitsastel ja rasketel metsaradadel.
+      </p>
+    </div>
+  </section>
+  
+  <section class="füüsilised-omadused">
+    <section>
+      <h2>Füüsilised omadused</h2>
+    </section>
+    
+    <section>
+      <div class="rollid">  
+        <div class="roll-kaart">
+          <img src="img/kell.png" alt="loading">
+          <p>Eluiga</p>
+          <p>60-70</p>
+        </div>
+        <div class="roll-kaart">  
+          <img src="img/kaal.png" alt="loading">
+          <p>Kaal</p>
+          <p>4 000 kg</p>
+        </div>
+        <div class="roll-kaart">  
+          <img src="img/joonlaud.png">
+          <p>Kõrgus</p>
+          <p>2,7 m</p>
+        </div>
       </div>
     </section>
-    <section class="kaart_info">
-      <div>
-        <h2>Aasia elevandi leviala</h2>
+  </section>
+
+  <section class="roll">
+    <div class="roll-intro">
+      <h2>Käitumine ja igapäevaelu</h2>
+      <p>
+        Aafrika elevandid elavad karjades, mida juhib kogenud emasloom. 
+        Nad liiguvad pikki vahemaid, otsides vett ja toitu ning suhtlevad omavahel nii häälte, 
+        kehakeele kui ka häälitsuste abil.
+      </p>
+    </div>
+
+    <div class="rollid">
+      <div class="kaart">
+        <img src="img/toit.png">
+        <h3>Toitumine</h3>
+        <p>Enamjaolt söövad nad rohtu, bambust, kaunvilju, puukoort, palmilehti ja igasuguseid ronitaimi. Hooajati ka viigimarju, metsõunu ja mangot.</p>
+      </div>
+      <div class="kaart">
+        <img src="img/herd.png">
+        <h3>Pereelu ja sotsiaalne struktuur</h3>
+        <p>
+          Karja tuumaks on tihedalt seotud emasloomade grupp. 
+          Noored isased lahkuvad hiljem karjast ning elavad kas üksikult või gruppides.
+        </p>
+      </div>
+        <div class="kaart">
+          <img src="img/leht.png">
+          <h3>Mitmekesised paiknejad</h3>
+          <p>
+          Aafrika elevandid elavad erinevates keskkondades savannidest ja rohumaadest metsade ja kõrbeteni, kohanedes erinevate ökosüsteemidega.
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ohud">
+    <h2>Ohud ja kaitsetegevus</h2>
+    <div class="tekst-pilt">
+      <div class="kaardid">
+        <div class="põhilised-ohud">  
+          <h3>Põhilised ohud</h3>
+          <ul>
+            <li>Loomade püüdmine turismi- ja metsandustööstuse tarbeks</li>
+            <li>Salaküttimine (eriti elevandiluu ja naha pärast)</li>
+            <li>Kliimamuutused (veeallikate ja toiduressursside vähenemine)</li>
+          </ul>
+        </div>
+        <div class="põhilised-ohud">
+          <h3>Looduskaitse edu</h3>
+          <ul>
+            <li>Rahvusvaheline elevandiluukaubanduse keeld</li>
+            <li>Looduskaitsealad</li>
+            <li>Looduskoridoride rajamine, mis ühendavad eraldatud elupaiku</li>
+            <li>Haridus- ja teavituskampaaniad, mis aitavad vähendada nõudlust elevandiluu ja muude toodete järele</li>
+          </ul>  
+        </div>
       </div>
       <div>
-        <img src="img/aasia_kaart2.png" alt="loading" class="aasia_kaart">
+        <img src="img/salakytt2.png" alt="loading">
       </div>
-    </section>
+    </div>
+  </section>
+
+  <section class="edasi">
+    <h1>Võrdle aafrika elevandiga</h1>
+    <p>Uurige aafrika ja aasia elevantide erinevusi füüsiliste omaduste, elupaigaeelistuste ja sotsiaalse käitumise järgi.</p>
+    <a href="aafrika_elevant.html">Uuri aafrika elevandi kohta</a> 
   </section>
   <footer>
     <div class="footer-logo">

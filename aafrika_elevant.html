@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="aafrika.css">
+  <script src="päis.js" defer></script>
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <div class="logo-pealkiri">
       <img src="img/elevandi_logo2.png" alt="Elevandi logo" class="logo">
       <h1>Elevandid</h1>
@@ -24,32 +25,26 @@
     </nav>
   </header>
 
-  <!-- Kangelassektsioon -->
-  <section class="hero">
-    <div class="hero-sisu">
-      <h2>Aafrika elevandid</h2>
-      <p>Tutvu Aafrika savannide ja metsade hiiglastega: nende välimuse, käitumise ja rolliga looduses.</p>
+  <section class="intro">
+    <div class="intro-sisu">
+      <p class="ladina">Loxodonta Africana</p>
+      <h1>Aafrika elevant</h1>
+      <p>Aafrika elevandid on suurimad maismaaloomad maailmas. Neid leidub Sahara-aluses Aafrikas nii savannides kui ka metsades.</p>
     </div>
+    <img src="img/aafrikakaart.png" alt="loading">
   </section>
 
-  <!-- Lühike sissejuhatus -->
-  <section class="liigid-tekst">
-    <h2>Aafrika elevantide kirjeldus</h2>
-    <p>
-      Aafrika elevandid (<em>Loxodonta</em>) on suurimad maismaaloomad maailmas. 
-      Neid leidub Sahara-aluses Aafrikas nii savannides kui ka metsades. 
-      Iseloomulikud on hiiglaslikud kõrvad, pikad kihvad ning tugev, kortsuline nahk.
-    </p>
+  <section class="alamliigid">
+    <h2>Alamliigid</h2>
   </section>
 
-  <!-- Kaardid: savannielevant ja metsaelevant -->
   <section class="kiirvõrdlus">
     <div class="kiirvõrdlus-kaart">
       <img src="img/aafrika savannielevant2.jpg" alt="Aafrika savannielevant" class="kiirvõrdlus-pilt">
       <h2>Savannielevant</h2>
       <p>
-        Aafrika savannielevant on neist kahest liigist suurem. 
-        Nendel on eriti suured kõrvad, saduljas seljajoon ning pikad, sageli ka emasloomadel esinevad kihvad.
+        Aafrika savannielevant on neist kahest alamliigist suurem. 
+        Nendel on eriti suured kõrvad, saduljas seljajoon ning pikad kihvad, mis sageli esinevad ka emasloomadel.
       </p>
       <div class="asukoht-populatsioon-ohustatud">
         <div class="kiirvõrdlus-asukoht">
@@ -58,11 +53,7 @@
         </div>
         <div class="kiirvõrdlus-populatsioon">
           <img src="img/populatsioon.png" alt="Populatsiooni ikoon" class="kiirvõrdlus-populatsioon-logo">
-          <p>Hinnanguliselt sadu tuhandeid, kuid arvukus väheneb</p>
-        </div>
-        <div class="kiirvõrdlus-ohustatud">
-          <img src="img/ohustatud2.png" alt="Ohustatud liigi ikoon" class="kiirvõrdlus-ohustatud-logo">
-          <p>Haavatav liik (Vulnerable)</p>
+          <p>~350 000</p>
         </div>
       </div>
     </div>
@@ -81,88 +72,106 @@
         </div>
         <div class="kiirvõrdlus-populatsioon">
           <img src="img/populatsioon.png" alt="Populatsiooni ikoon" class="kiirvõrdlus-populatsioon-logo">
-          <p>Tunduvalt haruldasem kui savannielevant</p>
-        </div>
-        <div class="kiirvõrdlus-ohustatud">
-          <img src="img/ohustatud2.png" alt="Ohustatud liigi ikoon" class="kiirvõrdlus-ohustatud-logo">
-          <p>Tõsiselt ohustatud liik</p>
+          <p>~65 000</p>
         </div>
       </div>
     </div>
   </section>
+  
+  <section class="füüsilised-omadused">
+    <section>
+      <h2>Füüsilised omadused</h2>
+    </section>
+    
+    <section>
+      <div class="rollid">  
+        <div class="roll-kaart">
+          <img src="img/kell.png" alt="loading">
+          <p>Eluiga</p>
+          <p>60-70</p>
+        </div>
+        <div class="roll-kaart">  
+          <img src="img/kaal.png" alt="loading">
+          <p>Kaal</p>
+          <p>6 000 kg</p>
+        </div>
+        <div class="roll-kaart">  
+          <img src="img/joonlaud.png">
+          <p>Kõrgus</p>
+          <p>3,3 m</p>
+        </div>
+      </div>
+    </section>
+  </section>
 
-  <!-- Käitumine, toitumine, roll -->
   <section class="roll">
     <div class="roll-intro">
       <h2>Käitumine ja igapäevaelu</h2>
       <p>
         Aafrika elevandid elavad karjades, mida juhib kogenud emasloom. 
         Nad liiguvad pikki vahemaid, otsides vett ja toitu ning suhtlevad omavahel nii häälte, 
-        kehakeele kui ka madalsageduslike häälitsuste abil.
+        kehakeele kui ka häälitsuste abil.
       </p>
     </div>
 
     <div class="rollid">
-      <div class="roll-kaart">
+      <div class="kaart">
+        <img src="img/toit.png">
         <h3>Toitumine</h3>
         <p>
           Aafrika elevandid on taimtoidulised ning söövad rohtu, lehti, oksi, koort ja puuvilju. 
           Nad võivad päevas süüa üle saja kilo toitu ja juua kümneid liitreid vett.
         </p>
       </div>
-      <div class="roll-kaart">
+      <div class="kaart">
+        <img src="img/herd.png">
         <h3>Pereelu ja sotsiaalne struktuur</h3>
         <p>
-          Karja tuum on tihedalt seotud emasloomade grupp. 
-          Noored isased lahkuvad hiljem karjast ning elavad kas üksikult või lõdvalt seotud poissmeeste gruppides.
+          Karja tuumaks on tihedalt seotud emasloomade grupp. 
+          Noored isased lahkuvad hiljem karjast ning elavad kas üksikult või gruppides.
         </p>
       </div>
-      <div class="roll-kaart">
-        <h3>Maastiku kujundajad</h3>
-        <p>
-          Puude murdmine, radade tallamine ja veekohtade kasutamine muudavad maastikku ning mõjutavad ka teiste liikide elutingimusi.
-        </p>
+        <div class="kaart">
+          <img src="img/leht.png">
+          <h3>Mitmekesised paiknejad</h3>
+          <p>
+          Aafrika elevandid elavad erinevates keskkondades savannidest ja rohumaadest metsade ja kõrbeteni, kohanedes erinevate ökosüsteemidega.
+          </p>
       </div>
     </div>
   </section>
 
-  <!-- Ohud ja kaitse -->
-  <section class="liigid-tekst">
+  <section class="ohud">
     <h2>Ohud ja kaitsetegevus</h2>
-    <p>
-      Aafrika elevantide suurimad ohud on elupaikade kadumine, salaküttimine (eriti elevandiluu pärast) 
-      ning konfliktid inimestega põldude ja veeallikate ümbruses. 
-      Kaitsealad, rahvuspargid ja rahvusvahelised kokkulepped püüavad vähendada salaküttimist 
-      ning tagada elevantidele piisava ja turvalise elupaiga.
-    </p>
+    <div class="tekst-pilt">
+      <div class="kaardid">
+        <div class="põhilised-ohud">  
+          <h3>Põhilised ohud</h3>
+          <ul>
+            <li>Elupaikade kadumine</li>
+            <li>Salaküttimine (eriti elevandiluu pärast)</li>
+            <li>Konfliktid inimestega põldude ja veeallikate ümbruses</li>
+          </ul>
+        </div>
+        <div class="põhilised-ohud">
+          <h3>Looduskaitse edu</h3>
+          <ul>
+            <li>Rahvusvaheline elevandiluukaubanduse keeld</li>
+            <li>Looduskaitsealad</li>
+            <li>Salaküttimise vastane tehnoloogia (droonid, kaamerad, sensorid)</li>
+          </ul>  
+        </div>
+      </div>
+      <div>
+        <img src="img/salakytt.png" alt="loading">
+      </div>
+    </div>
   </section>
 
-  <!-- Väikesed faktid -->
-  <section class="roll">
-    <div class="roll-intro">
-      <h2>Huvitavaid fakte Aafrika elevantide kohta</h2>
-      <p>Siin on mõned lühikesed faktid, mis aitavad neid paremini meeles pidada.</p>
-    </div>
-    <div class="rollid">
-      <div class="roll-kaart">
-        <h3>Eluiga</h3>
-        <p>
-          Aafrika elevandid võivad looduses elada 60–70 aastat, kui neil on piisavalt toitu ja turvaline elupaik.
-        </p>
-      </div>
-      <div class="roll-kaart">
-        <h3>Mälu</h3>
-        <p>
-          Nende mälu on väga hea. Nad suudavad meenutada veekohti, teisi elevante ja ohte paljude aastate pärast.
-        </p>
-      </div>
-      <div class="roll-kaart">
-        <h3>Lont</h3>
-        <p>
-          Lont on korraga nina ja ülahuul, mille abil elevant hingab, lõhnab, joob ja tõstab esemeid, isegi väikeseid objekte.
-        </p>
-      </div>
-    </div>
+  <section class="edasi">
+    <h1>Võrdle aasia elevandiga</h1>
+    <p>Uurige Aafrika ja Aasia elevantide erinevusi füüsiliste omaduste, elupaigaeelistuste ja sotsiaalse käitumise järgi.</p>
+    <a href="aasia_elevant.html">Uuri aasia elevandi kohta</a> 
   </section>
 
   <footer>

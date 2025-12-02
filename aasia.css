@@ -1,57 +1,286 @@
-.pilt3 {
-    height: 300px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.alamliigid {
+	  max-width: 1200px;
+    margin: auto;
+    padding: 30px 50px;
 }
-h2 {
-    text-align: center;
-    color: #0b3d2e;
+
+.alamliigid h2 {
+  text-align: center;
+	color: #0b3d2e;
 	font-weight: bold;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-	font-size: 25px;
+	font-size: 40px;
+	margin: 0;
+	padding-left: 55px;
 }
-p {
-    color: #0b3d2e;
+
+.roll {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 50px;
+		background-color: #fafaf1;
+}
+.kiirvõrdlus-pilt { 
+  max-height: 330px;
+  height: auto;   
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+		margin: 40px;
+		gap: 65px;
+		padding-top: 30px;
+		background-color: #FAFAF1;
+}
+
+.intro img {
+	height: 430px;
+	width: auto;
+	border-radius: 10px;
+	margin-right: 100px;
+}
+
+.ladina {
+	color: #0b3d2e;
 	letter-spacing: 0.1em;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*text-align: justify;    kui meeldib nii rohkem siis võtke commentid maha*/
+	margin: 0 0 8px 0;
+	font-size: 16px;
+	background-color: #C7E6C1;
+	border-radius: 16px;
+	display: inline-block;
+	padding: 10px;
 }
-.info {
-    display: flex;
+
+.intro h1 {
+	color: #0b3d2e;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 40px;
+	margin-bottom: 14px;
+}
+
+.intro p:not(.ladina) {
+	color: #0b3d2e;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	font-size: 25px;
+	max-width: 40ch;
+}
+
+.intro-sisu {
+	margin-left: 100px;
+}
+
+.kiirvõrdlus-kaart {
+	display: flex;
+  align-items: center;
+  gap: 40px;  
+	line-height: 1.4;
+}
+
+.füüsilised-omadused {
+	background-color: #F0F3EC;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.füüsilised-omadused h2 {
+	background-color: #F0F3EC;
+	max-width: 1200px;
+  margin: auto;
+  padding: 30px 50px;
+	color: #0b3d2e;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 40px;
+	margin-bottom: 14px;
+}
+
+.roll-kaart img {
+	height: 40px;
+	width: 40px;
+	padding-bottom: 10px;
+}
+
+.roll-kaart {
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	gap: 40px;
+	align-items: center;
+	width: 200px;
 }
-.suurus {
-    padding: 30px 30px;
+
+.roll-kaart {
+	width: 200px;
+}
+
+.kaart {
 	background-color: #E7F0E2;
+	padding: 20px 30px;
 	margin: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	border-radius: 20px;
-    max-width: 300px;
+	border-radius: 15px;
+	max-width: 300px;
 }
-.toitumine {
-    padding: 30px 30px;
-	background-color: #E7F0E2;
-	margin: 30px;
+
+.kaart p {
+	color: #0b3d2e;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	text-align: left;
+}
+
+.roll h2 {
+	font-size: 30px;
+}
+
+.ohud {
+	background-color: #0b3d2e;
+	padding-top: 30px;
+}
+
+.ohud h2 {
+	max-width: 1200px;
+  margin: auto;
+  padding: 30px 50px;
+	color: white;
+	font-weight: bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+	font-size: 40px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+
+.tekst-pilt {
+	display: flex;
+	padding: 25px;
+	gap: 100px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+	align-items: center;
+}
+
+.ohud img {
+	height: 450px;
+	border-radius: 15px;
+}
+
+.tekst-pilt ul{
+	color: white;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	text-align: left;
+}
+
+.põhilised-ohud {
+	background-color: #245143;
+	border-radius: 25px;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	border-radius: 20px;
-    max-width: 300px;
 }
-.aasia_kaart {
+
+.põhilised-ohud h3 {
+	color: white;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.põhilised-ohud ul {
+	padding-left: 1.2em;
+	margin-left: 0;
+	line-height: 1.4;
+	font-size: 20px;
+}
+
+.kaardid {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.edasi a {
+	color: white;
+	background-color: #0B3D2E;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 14px;
+  font-size: 1.125rem;
+  letter-spacing: 0.1em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: opacity 0.2s ease;
+	width: 278px;
+	height: auto;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+.edasi a:hover {
+	opacity: 75%;
+}
+
+.edasi {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+}
+
+.edasi p {
+	color: #0b3d2e;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	text-align: left;
+	width: 700px;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.informatsioon {
 	background-color: #E7F0E2;
-	border: 1px solid #000000;
+	padding: 40px 150px;
+	margin-top: 130px;
+}
+
+.informatsioon p {
+	color: #0b3d2e;
+	letter-spacing: 0.1em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 0 8px 0;
+	font-size: 20px;
+	background-color: #FAFAF1;
+	margin-left: 50px;
+	border-radius: 15px;
+	padding: 20px;
+	line-height: 1.4;
+} 
+
+.informatsioon-kaart {
+	display: flex;
+	flex: row;
+} 
+
+.informatsioon img {
+	height: 400px;
+	width: auto;
 	border-radius: 20px;
-    height: 500px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
